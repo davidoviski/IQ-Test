@@ -27,6 +27,19 @@ namespace VPP
             totalQuestons = 18;
 
         }
+        private void ShowMainFormAndCloseQuiz()
+        {
+            // Show Form1
+            Form1 form1 = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+            if (form1 != null)
+            {
+                form1.Show();
+            }
+
+            // Close the current quiz form
+            this.Close();
+        }
+
 
         private void checkAwnserEvent(object sender, EventArgs e)
         {
@@ -43,27 +56,14 @@ namespace VPP
                 DialogResult result = MessageBox.Show(
                "Квизот заврши!" + Environment.NewLine +
                "Вие имате " + score + " точно одговорени прашања" + Environment.NewLine +
-               "Вашето ниво на интелегенција од овој квиз е " + percentage + "%" + Environment.NewLine +
+               "Вашето ниво на интелегенција од овој квиз е " + percentage * 1.65 + "IQ" + Environment.NewLine +
                "За да продолжите притиснете OK!",
                "Резултати на квиз",
                MessageBoxButtons.OK );
 
                 if (result == DialogResult.OK)
                 {
-                    // Close all instances of Quiz1 except the current one
-                    var openForms = Application.OpenForms.Cast<Form>().Where(f => f.GetType() == typeof(Quiz1)).ToList();
-                    foreach (var form in openForms)
-                    {
-                        if (form != this)
-                            form.Close();
-                    }
-
-                    // Show Form1
-                    Form1 form1 = new Form1();
-                    form1.Show();
-
-                    // Close the current instance of Quiz1
-                    this.Close();
+                    ShowMainFormAndCloseQuiz();
                 }
             }
             questionsNumber++;

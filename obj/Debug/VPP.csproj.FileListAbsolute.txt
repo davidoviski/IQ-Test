@@ -10,3 +10,4 @@ D:\FINKI2\VisualStudio\VPP\obj\Debug\VPP.exe
 D:\FINKI2\VisualStudio\VPP\obj\Debug\VPP.pdb
 D:\FINKI2\VisualStudio\VPP\obj\Debug\VPP.Quiz1.resources
 D:\FINKI2\VisualStudio\VPP\obj\Debug\VPP.Quiz2.resources
+D:\FINKI2\VisualStudio\VPP\obj\Debug\VPP.Quiz3.resources
