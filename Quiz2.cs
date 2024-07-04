@@ -17,6 +17,7 @@ namespace VPP
         int score;
         int percentage;
         int totalQuestons;
+        int remainingSeconds = 0;
         public Quiz2()
         {
             InitializeComponent();
@@ -73,6 +74,7 @@ namespace VPP
         }
         private void askQuestion(int qnum)
         {
+            StartTimer();
             switch (qnum)
             {
                 case 1:
@@ -239,6 +241,53 @@ namespace VPP
                     break;
 
             }
+
+        }
+        private void StartTimer()
+        {
+            remainingSeconds = 15;
+            timer1.Enabled = true;
+            timer1.Start();
+        }
+        private void ResetTimer()
+        {
+            remainingSeconds = 15;
+        }
+        private void UpdateTimerDisplay()
+        {
+            lblTimer.Text = "Timer: " + remainingSeconds.ToString();
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            remainingSeconds--;
+            if (remainingSeconds > 0)
+            {
+                UpdateTimerDisplay();
+            }
+
+            if (remainingSeconds < 0)
+            {
+                timer1.Stop();
+                DialogResult result = MessageBox.Show("Do you want to start the test again?", "Retry Test",
+                                          MessageBoxButtons.RetryCancel, MessageBoxIcon.Question);
+                if (result == DialogResult.Retry)
+                {
+                    questionsNumber = 1;
+                    askQuestion(questionsNumber);
+                    ResetTimer();
+                }
+                else
+                {
+                    ShowMainFormAndCloseQuiz();
+                    ResetTimer();
+                }
+            }
+        }
+
+        private void lblTimer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
