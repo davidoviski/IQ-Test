@@ -24,3 +24,13 @@ C:\Users\tasev\OneDrive\Documents\VP-Proekt\IQ-Test\obj\Debug\VPP.csproj.Generat
 C:\Users\tasev\OneDrive\Documents\VP-Proekt\IQ-Test\obj\Debug\VPP.csproj.CoreCompileInputs.cache
 C:\Users\tasev\OneDrive\Documents\VP-Proekt\IQ-Test\obj\Debug\VPP.exe
 C:\Users\tasev\OneDrive\Documents\VP-Proekt\IQ-Test\obj\Debug\VPP.pdb
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.Form1.resources
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.Properties.Resources.resources
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.Quiz1.resources
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.Quiz2.resources
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.Quiz3.resources
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.csproj.GenerateResource.cache
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.exe
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.pdb

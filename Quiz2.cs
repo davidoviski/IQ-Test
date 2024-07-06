@@ -269,17 +269,11 @@ namespace VPP
             if (remainingSeconds < 0)
             {
                 timer1.Stop();
-                DialogResult result = MessageBox.Show("Do you want to start the test again?", "Retry Test",
-                                          MessageBoxButtons.RetryCancel, MessageBoxIcon.Question);
-                if (result == DialogResult.Retry)
+                DialogResult result = MessageBox.Show("GAME OVER -- TIMED OUT", MessageBoxButtons.OK);
+                if (result == DialogResult.OK)
                 {
                     questionsNumber = 1;
                     askQuestion(questionsNumber);
-                    ResetTimer();
-                }
-                else
-                {
-                    ShowMainFormAndCloseQuiz();
                     ResetTimer();
                 }
             }
