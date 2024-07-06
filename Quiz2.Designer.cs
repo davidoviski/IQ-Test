@@ -165,7 +165,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Quiz2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quiz2";
+            this.Text = "Знамиња на држави квиз";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -150,7 +150,7 @@
             this.Controls.Add(this.Q1lblQuestion);
             this.Name = "Quiz1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quiz1";
+            this.Text = "Општо знаење квиз";
             this.ResumeLayout(false);
             this.PerformLayout();
 

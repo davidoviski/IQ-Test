@@ -261,19 +261,18 @@ namespace VPP
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             remainingSeconds--;
-            if (remainingSeconds > 0)
+            if (remainingSeconds >= 0)
             {
                 UpdateTimerDisplay();
             }
-
-            if (remainingSeconds < 0)
+            else
             {
                 timer1.Stop();
                 DialogResult result = MessageBox.Show("GAME OVER -- TIMED OUT","TIMEOUT" ,MessageBoxButtons.OK);
                 if (result == DialogResult.OK)
                 {
                     questionsNumber = 1;
-                    askQuestion(questionsNumber);
+                    ShowMainFormAndCloseQuiz();
                     ResetTimer();
                 }
             }

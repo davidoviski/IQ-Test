@@ -164,7 +164,7 @@
             this.Controls.Add(this.Q3lblQuestion);
             this.Name = "Quiz3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quiz3";
+            this.Text = "Тест со броеви - Менса квиз";
             this.ResumeLayout(false);
             this.PerformLayout();
 

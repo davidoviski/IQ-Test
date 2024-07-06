@@ -237,15 +237,14 @@ namespace VPP
             {
                 UpdateTimerDisplay();
             }
-
-            if (remainingSeconds < 0)
+            else
             {
                 timer1.Stop();
                 DialogResult result = MessageBox.Show("GAME OVER -- TIMED OUT","TIMEOUT", MessageBoxButtons.OK);
                 if (result == DialogResult.OK)
                 {
                     questionsNumber = 1;
-                    askQuestion(questionsNumber);
+                    ShowMainFormAndCloseQuiz();
                     ResetTimer();
                 }
             }
