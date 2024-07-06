@@ -249,7 +249,7 @@ namespace VPP
             if (remainingSeconds < 0)
             {
                 timer1.Stop();
-                DialogResult result = MessageBox.Show("GAME OVER -- TIMED OUT", MessageBoxButtons.OK);
+                DialogResult result = MessageBox.Show("GAME OVER -- TIMED OUT","TIMEOUT" ,MessageBoxButtons.OK);
                 if (result == DialogResult.OK)
                 {
                     questionsNumber = 1;

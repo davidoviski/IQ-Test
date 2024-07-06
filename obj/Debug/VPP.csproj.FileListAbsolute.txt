@@ -34,3 +34,6 @@ C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.csproj.GenerateResour
 C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.csproj.CoreCompileInputs.cache
 C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.exe
 C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\obj\Debug\VPP.pdb
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\bin\Debug\VPP.exe.config
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\bin\Debug\VPP.exe
+C:\Users\Korisnik\Desktop\IQ-Test-VP\IQ-Test\bin\Debug\VPP.pdb
